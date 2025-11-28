@@ -39,21 +39,17 @@ You must have Python 3.10 or later installed.
 2. Install `uv`, if not already installed, by running following command from terminal:
 
    `pip install uv`
-3. Create a virtual environment by running:
-
-   `uv init`
-
-4. Install the necessary python packages:
+3. Create a virtual environment and install required python package by running:
 
    `uv sync`
-5. Run the FastAPI server with following command from terminal:
+4. Run the FastAPI server with following command from terminal:
 
    `uv run uvicorn main:app`
 
-6. Run the Inngest Dev Server using following command from terminal:
+5. Run the Inngest Dev Server using following command from terminal:
 
     `npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest`
 
-7. Run Streamlit application using following command from terminal:
+6. Run Streamlit application using following command from terminal:
 
     `uv run streamlit run .\streamlit_app.py`
